@@ -42,6 +42,14 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 6. Although picture links to content in above box visually it looks seperate so i don't think this works.
 7. Tried using circle images instead rectangular images and also alternating the side the image is on to try and make the page feel less repetitive. I prefer this over the previous two but not sure about the circles.
 8. Changed pictures back to rectangles which fills the container better which I prefer.
+
+### Home page Tablet
+
+![Hompage Mobile Wireframes](./assets/wireframes/home-page-tablet.png)
+
+1. Just a straight copy of Mk. 4 from the mobile layout just everything scaled up to fit the tablet screen. looks good and clean still. Also text carries on below the screen making the user scroll revealing the rest of the page. 
+2. Copy of Mk. 2 from mobile version where "Why help" and "How to help" were merged. definitely looks better on tablet than on mobile with the extra space between the text. and the picture below looks like it is linked too the info more. 
+3. Tried putting text over image but it looks a bit squashed and makes the L shape of the text look awkward. and doesn't really work.
 ---
 ## Features
 ---
