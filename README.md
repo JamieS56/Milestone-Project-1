@@ -32,7 +32,7 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 
 ### Home page Mobile
 
-![Hompage Mobile Wireframes](./assets/wireframes/home-page-mobile2.png)
+![Hompage Mobile Wireframes](./assets/wireframes/home-page-mobile.png)
 
 1. Button menu bar doesn't look as nice as a drop down menu but works more functionally on mobile and tablet because if you accidentally click on a drop down it will annoy the user as it covers up the content trying to be viewed by the user.
 2. Big image to show user what the website is about and big text giving them a welcome.
@@ -43,6 +43,8 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 7. Tried using circle images instead rectangular images and also alternating the side the image is on to try and make the page feel less repetitive. I prefer this over the previous two but not sure about the circles.
 8. Changed pictures back to rectangles which fills the container better which I prefer.
 
+
+
 ### Home page Tablet
 
 ![Hompage Mobile Wireframes](./assets/wireframes/home-page-tablet.png)
@@ -50,6 +52,17 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 1. Just a straight copy of Mk. 4 from the mobile layout just everything scaled up to fit the tablet screen. looks good and clean still. Also text carries on below the screen making the user scroll revealing the rest of the page. 
 2. Copy of Mk. 2 from mobile version where "Why help" and "How to help" were merged. definitely looks better on tablet than on mobile with the extra space between the text. and the picture below looks like it is linked too the info more. 
 3. Tried putting text over image but it looks a bit squashed and makes the L shape of the text look awkward. and doesn't really work.
+
+
+
+### Home page Desktop
+
+![Homepage Desktop Wireframes](./assets/wireframes/home-page-desktop1.png)
+
+1. Hidden Menu Button means menu takes up less space on the page making the whole page look cleaner but has an obvious icon that is intuitive to click.
+2. Circles look cleaner on the bigger page and fit nicely on the page with the content clearly linked to the picture plus there's room to have all the info next to each other on the bigger screen.
+3. Just checking what the menu bar looks like as a button bar rather than hidden, i prefer the hidden menu.
+
 ---
 ## Features
 ---
