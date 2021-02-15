@@ -7,6 +7,12 @@
 
 }
 
+/*----------colors------------------*/
+
+body{
+    background-csscolor: #1e88e5;
+}
+
 /*-------------------header------------------------------------*/
 
 .header{
@@ -25,7 +31,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 480px;
 
 }
 /*----------------------/header-------------------------*/
@@ -36,4 +42,5 @@
 
     border-radius: 177px;
     border-width: 2px;
+    min-height: 100px;
 }

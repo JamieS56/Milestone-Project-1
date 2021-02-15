@@ -73,3 +73,4 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 ## Deployment
 ---
 ## Credits
+main-picture-dolphins.jpeg was taken from "https://www.visitsealife.com/loch-lomond/media/0j4pyn4m/little-grey-and-little-white.jpg"
