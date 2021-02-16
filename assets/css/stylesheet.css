@@ -26,9 +26,12 @@ body{
     padding: 0 20px 0 0;
 }
 
-nav div ul{
-    
+.nav-item, .dropdown{
+    float: right;
+
 }
+    
+
 /*---this was taken from the resume project----*/
 .welcome-picture{
     background: url(../images/main-picture-dolphins.jpeg);
@@ -47,4 +50,31 @@ nav div ul{
     border-radius: 177px;
     border-width: 2px;
     min-height: 100px;
+}
+
+
+
+/*-----------footer-------------*/
+
+footer{
+    background-color:#002f6c;
+    min-height:auto;
+    color: #fff;
+}
+
+.social-link{
+    padding-right: 5px;
+    float: right;
+    padding: 20px 0 20px 0;
+
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer div h3{
+
+padding: 5px, 0, 10px, 43px;
 }
