@@ -34,6 +34,22 @@ body{
     float: right;
 
 }
+
+ @media (max-width: 992px) { 
+
+    .navbar-toggler{
+        display: none;
+    }
+
+ }
+
+  @media (min-width: 992px) { 
+
+    .navbar-toggler{
+        visibility: visible;
+    }
+
+ }
     
 
 /*---this was taken from the resume project----*/
@@ -46,6 +62,29 @@ body{
 
 }
 /*----------------------/header-------------------------*/
+
+.banner{
+    min-height: 66px;
+    text-align: center;
+    color: #fff;
+    background-color: #01579b;
+}
+
+.banner h1{
+    padding-top:16px;
+}
+
+nav ul{
+      overflow: hidden;
+        list-style-type: none;
+}
+
+nav li{
+ 
+  float: left;
+
+}
+
 
 /*----------------home page-----------------------------*/
 
@@ -62,7 +101,7 @@ body{
 
 footer{
     background-color:#002f6c;
-
+    max-height:200px;
     color: #fff;
     min-height: 120px;
     margin:0;
@@ -90,17 +129,39 @@ footer h3{
 
 @media (min-width: 992px) { 
     .list-inline-item a i{
-        font-size: 200%;
+        font-size: 250%;
         padding-right: 50px;
+        text-align: center;
+    }
+    .contact-info{
+        padding-right:20px;
+    }
+        .social-header{
+        text-align: center;
+
+
     }
 
  }
 
  @media (max-width: 992px) { 
     .list-inline-item a i{
-        padding-top: 15px;
         font-size: 110%;
+        padding-right: 2px;
+
+    }
+    .general-sub{
+        font-size: 100%;
 
     }
 
+    .social-header{
+        text-align: center;
+        padding: 0 5px 0 32px;
+
+    }
+    
+    .social-icon-list{
+        padding-left:0;
+    }
  }
