@@ -1,10 +1,14 @@
-/*------- layout -------*/
+/*------- general -------*/
 
 .temp-layout{
     border-style: solid;
     border-width: 2px;
     color: black;
 
+}
+
+.text-center{
+    text-align: center;
 }
 
 /*----------colors------------------*/
@@ -19,7 +23,7 @@ body{
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 20px;
-    font-size: xx-large;
+
 }
 
 .menu-icon{
@@ -58,15 +62,16 @@ body{
 
 footer{
     background-color:#002f6c;
-    min-height:auto;
+
     color: #fff;
+    min-height: 120px;
+    margin:0;
 }
 
 .social-link{
     padding: 20px 0;
     text-align: center;
     font-size: 280%;
-    background-color: #fff;
 }
 
 footer ul{
@@ -81,3 +86,21 @@ footer h3{
 }
 
 
+
+
+@media (min-width: 992px) { 
+    .list-inline-item a i{
+        font-size: 200%;
+        padding-right: 50px;
+    }
+
+ }
+
+ @media (max-width: 992px) { 
+    .list-inline-item a i{
+        padding-top: 15px;
+        font-size: 110%;
+
+    }
+
+ }
