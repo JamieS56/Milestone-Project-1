@@ -26,13 +26,10 @@ body{
 
 }
 
-.menu-icon{
-    padding: 0 20px 0 0;
-}
-
-.nav-item, .dropdown{
-    float: right;
-
+nav ul li{
+    padding:0 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
  @media (max-width: 992px) { 
@@ -41,6 +38,17 @@ body{
         display: none;
     }
 
+    .menu-button{
+        display: none;
+    }
+
+    .navbar-brand{
+        display:none;
+    }
+
+
+
+
  }
 
   @media (min-width: 992px) { 
@@ -48,6 +56,17 @@ body{
     .navbar-toggler{
         visibility: visible;
     }
+
+    .banner{
+        display: none;
+        
+    }
+    nav ul{
+        visibility:hidden;
+    }
+
+
+
 
  }
     
