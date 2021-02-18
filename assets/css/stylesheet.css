@@ -32,11 +32,19 @@ nav ul li{
     font-weight: bold;
 }
 
+nav div a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item{
+    padding-left:20px;
+    float:right;
+}
+
  @media (max-width: 992px) { 
 
-    .navbar-toggler{
-        display: none;
-    }
+
 
     .menu-button{
         display: none;
@@ -46,6 +54,14 @@ nav ul li{
         display:none;
     }
 
+    nav{
+        min-height: 30px;
+    }
+
+    .desktop-header{
+        margin-top: 10px;
+
+    }
 
 
 
@@ -61,7 +77,7 @@ nav ul li{
         display: none;
         
     }
-    nav ul{
+    .menu-item-list{
         visibility:hidden;
     }
 
