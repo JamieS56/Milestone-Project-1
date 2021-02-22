@@ -63,6 +63,9 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 2. Circles look cleaner on the bigger page and fit nicely on the page with the content clearly linked to the picture plus there's room to have all the info next to each other on the bigger screen.
 3. Just checking what the menu bar looks like as a button bar rather than hidden, i prefer the hidden menu.
 
+![Events page Wireframes](./assets/wireframes/events.png)
+![Donation page Wireframes](./assets/wireframes/donation.png)
+![Contact page Wireframes](./assets/wireframes/contact.png)
 ---
 ## Features
 ---
