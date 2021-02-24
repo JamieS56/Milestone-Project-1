@@ -17,8 +17,8 @@
 </head>
 
 <body>
-
-<div class="banner">
+<header>
+<div class="banner text-center">
     <h1>Save the Seas</h1>
 </div>
 
@@ -30,22 +30,23 @@
                 <a class="navbar-brand" href="#">Save the Seas</a>
             </div>
             <div class="menu-button col-6 desktop-header">
-                <button class="btn btn-primary" type="submit">
+
+                <a class="btn btn-primary" data-toggle="collapse" href="#menu-list" role="button" aria-expanded="false" aria-controls="collapseExample">
                     <i class="fas fa-bars"></i>
-                </button>
+                </a>
             </div>
         </div>
 
-    <div class=" text-center row menu-item-list">     
-        <div class="col-3 menu-item"><a href = "#">Home</a></div>
-        <div class="col-3 menu-item"><a href = "#">Donate</a></div>
-        <div class="col-3 menu-item"><a href = "#">Events</a></div>
-        <div class="col-3 menu-item"><a href = "#">Contact</a></div>            
+    <div class=" text-center row menu-item-list collapse show" id="menu-list">     
+        <div class="col-3 menu-item"><a href = "index.html">Home</a></div>
+        <div class="col-3 menu-item"><a href = "donate.html">Donate</a></div>
+        <div class="col-3 menu-item"><a href = "events.html">Events</a></div>
+        <div class="col-3 menu-item"><a href = "contact.html">Contact</a></div>            
     </div>
 
   </div>
 </nav>
-
+</header>
 <footer>
 
     <div class="row container-fluid align-items-center">

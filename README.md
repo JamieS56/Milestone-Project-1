@@ -72,8 +72,17 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 ## Technologies Used
 ---
 ## Testing
+
+nav bar:
+1. I have 
+
+
 ---
 ## Deployment
 ---
 ## Credits
 main-picture-dolphins.jpeg was taken from "https://www.visitsealife.com/loch-lomond/media/0j4pyn4m/little-grey-and-little-white.jpg"
+
+---
+## Acknowledgements 
+i recieved inspiration for this project from save our seas "https://saveourseas.com/"

@@ -108,12 +108,12 @@ nav div a{
 }
 
 #welcome-text {
-    font-size: 100%;
+    font-size: 70%;
 
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 600px;
+    width: 40vw;
     height: 160px;
 
 padding: 20px 10px 20px 40px;
@@ -124,8 +124,14 @@ padding: 20px 10px 20px 40px;
 
 
     position: absolute;
-    color: white
+    color: white;
 
+    overflow: none;
+
+}
+
+#welcome-text h2{
+    font-size: 140%;
 }
 /*--------/Welcome-image------*/
 
@@ -232,4 +238,11 @@ footer h3{
     .social-icon-list{
         padding-left:0;
     }
+ }
+
+
+ /*------------------contact form----------*/
+
+ #contact-form input{
+     margin-bottom: 5px;
  }
