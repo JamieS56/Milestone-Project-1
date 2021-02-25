@@ -141,7 +141,7 @@ padding: 20px 10px 20px 40px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
-    width: 48vw;
+    width: 45vw;
 
     /*---
     border-width: 2px;
@@ -150,13 +150,15 @@ padding: 20px 10px 20px 40px;
 ---*/
     position: relative;
 
-    margin-left:2px;
+
+    
 
 }
 
-#about-us{
-    margin: 3% 2%;
+.home-info-block{
     width: 100vw;
+
+    margin: 2% 15px 2% 10px;
 }
 
 #about-us-text{
@@ -165,11 +167,34 @@ padding: 20px 10px 20px 40px;
     font-size: 70%;
     padding-top: 10px;
     margin-right: 2px;
-    width: 48vw;
+    width: 45vw;
 }
 
-#about-us .col{
-    padding: 0;
+
+
+#about-us p, h3{
+    padding-left: 7px;
+}
+
+
+
+
+#why-help-image{
+    background: url(../images/seal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 45vw;
+
+    /*---
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+---*/
+    position: relative;
+
+
 }
 /*-----------footer-------------*/
 

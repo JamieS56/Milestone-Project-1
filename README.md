@@ -82,6 +82,7 @@ nav bar:
 ---
 ## Credits
 main-picture-dolphins.jpeg was taken from "https://www.visitsealife.com/loch-lomond/media/0j4pyn4m/little-grey-and-little-white.jpg"
+seal.jpg was taken from "https://theconversation.com/how-diving-seals-plan-ahead-to-save-oxygen-new-research-121909"
 
 ---
 ## Acknowledgements 
