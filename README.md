@@ -16,7 +16,7 @@ The Goals of the website in order of importance:
 
 ### Who is Save the Seas for?
 
-Save The Seas is for people who are are intrested in learning more about sea life consevation and helping out. The target audience is 18 to 60 year olds as you will need to be over 18 to donate and this age range would be more likley to share the oage than anyone wo is older. although under 18s wont be able to donate the website should be accessible to them as the main goal of Save the Seas is to inspire and you can still inspire young people to help via fundraisers or donate through an adult.
+Save The Seas is for people who are are intrested in learning more about sea life consevation and helping out. The target audience is 18 to 60 year olds as you will need to be over 18 to donate and this age range would be more likley to share the page than anyone who is older. Although under 18s won't be able to donate the website should be accessible to them as the main goal of Save the Seas is to inspire and you can still inspire young people to help via fundraisers or donate through an adult.
 
 ### User stories:
 
@@ -73,8 +73,9 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 ---
 ## Testing
 
-nav bar:
-1. I have 
+1. Nav bar:
+    i. Clicking the button on the dropdown menu doesn't open the dropdown. As this is only a feature on destop size and is a non-crucial element of the page i am going to change it to the same menu as the mobile and tablet.
+    ii. 
 
 
 ---
@@ -83,6 +84,7 @@ nav bar:
 ## Credits
 main-picture-dolphins.jpeg was taken from "https://www.visitsealife.com/loch-lomond/media/0j4pyn4m/little-grey-and-little-white.jpg"
 seal.jpg was taken from "https://theconversation.com/how-diving-seals-plan-ahead-to-save-oxygen-new-research-121909"
+beach-run-bournemouth.jpg was taken from "https://www.visitilfracombe.co.uk/item/beat-the-bach-woolacombe-10k-beach-run/"
 
 ---
 ## Acknowledgements 

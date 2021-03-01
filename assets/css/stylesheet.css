@@ -42,15 +42,6 @@ nav div a{
  @media (max-width: 992px) { 
 
 
-
-    .menu-button{
-        display: none;
-    }
-
-    .navbar-brand{
-        display:none;
-    }
-
     nav{
         min-height: 30px;
     }
@@ -60,28 +51,9 @@ nav div a{
 
     }
 
-
-
-  
-
  }
 
-  @media (min-width: 992px) { 
-
-    .navbar-toggler{
-        visibility: visible;
-    }
-
-    .banner{
-        display: none;
-        
-    }
-    .menu-item-list{
-        visibility:hidden;
-    }
-
- }
-    
+     
 
 /*----------------------/header-------------------------*/
 
@@ -298,3 +270,28 @@ footer h3{
  #contact-form input{
      margin-bottom: 5px;
  }
+
+ /*----------events-------*/
+
+ /*----taken from love running project and edited----*/
+ .event-picture {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    border-style: solid;
+    border-color: #1b1b1b;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    
+}
+
+.event-block{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#bournemouth-beach-run-photo{
+    background-image: url(../images/beach-run-bournemouth.jpg);
+    background-size: 160%;
+    background-repeat: no-repeat;
+}
