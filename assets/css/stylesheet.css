@@ -289,9 +289,31 @@ footer h3{
 .event-block{
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: #01579b;
+    color:#fff;
+    background-size: 100% 75%;
 }
 #bournemouth-beach-run-photo{
     background-image: url(../images/beach-run-bournemouth.jpg);
     background-size: 160%;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 992px) {
+    .event-picture{
+        height:inherit;
+        width: 200px;
+    }
+
+    .event-block{
+        font-size: 70%;
+        margin: 10px 5px;
+
+    }
+
+    .event-text{
+        width: 190px;
+        padding-left:10px;
+
+    }
 }
