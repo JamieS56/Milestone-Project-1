@@ -1,3 +1,4 @@
+  @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 /*------- general -------*/
 
 .text-center{
@@ -6,6 +7,10 @@
 
 .no-gutters{
     padding: 0;
+}
+
+p{
+    font-size: 16px;
 }
 
 /*----------colors------------------*/
@@ -53,7 +58,10 @@ nav div a{
 
  }
 
-     
+     .banner{
+         height: 100px;
+         font-size: 30px;
+     }
 
 /*----------------------/header-------------------------*/
 
@@ -86,7 +94,7 @@ nav div a{
     letter-spacing: 4px;
 
     width: 40vw;
-    height: 130px;
+    height: auto;
 
     padding: 20px 10px 20px 40px;
 
@@ -137,6 +145,7 @@ nav div a{
 
 .home-info-container{
     padding:2px;
+    height: 200px
 }
 
 .home-info-block{
@@ -153,7 +162,12 @@ nav div a{
     background: url(../images/seal.jpg);
 }
 
-#about-us-picture, #why-help-image{
+#how-to-help-image{
+    background: url(../images/how-to-help.jpg);
+
+}
+
+#about-us-picture, #why-help-image, #how-to-help-image{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,7 +182,7 @@ nav div a{
 
 
 
-#about-us-text, #why-help-text{
+#about-us-text, #why-help-text, #how-to-help-text{
     background-color: #01579b;
     color: #fff;
     font-size: 70%;
@@ -185,7 +199,7 @@ nav div a{
 
 .r-col{
     margin-right:2px;
-    overflow: hidden;
+
 
 }
 
@@ -275,8 +289,8 @@ footer h3{
 
  /*----taken from love running project and edited----*/
  .event-picture {
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     padding: 0;
     border-style: solid;
     border-color: #1b1b1b;
@@ -288,16 +302,16 @@ footer h3{
 
     position: absolute;
     
-    left: 65vw;
+    left: 67.5vw;
     top: -1px;
 }
 
 .event-block{
     background-color: #01579b;
     color:#fff;
-    margin: 10px 20px;
+    margin: 10px auto;
     position: relative;
-    height: 20vw;
+    height: 15vw;
     width: 75vw;
     border-style: solid;
     border-color: #1b1b1b;
@@ -309,6 +323,22 @@ footer h3{
     background-size: 160%;
     background-repeat: no-repeat;
     margin: auto;
+}
+
+.event-text p{
+    width: 65vw;
+    padding-right: 5vw;
+    
+    position: absolute;
+    top: 50%;
+
+    padding-left: 20px;
+}
+
+.event-text h3{
+    position: absolute;
+    top:35%;
+    padding-left: 40px;
 }
 
 @media (max-width: 992px) {
