@@ -179,7 +179,7 @@ footer h4{
  }
 
 
-@media (max-width: 380px) {
+@media (max-width: 450px) {
       footer h4{
           font-size: 12px;
       }
@@ -413,6 +413,13 @@ footer h4{
     border-width: 1px;
 }
 
+.event-inner{
+    height: 15vw;
+    width: 75vw;
+    margin:0;
+
+}
+
 #bournemouth-beach-run-photo{
     background-image: url(../images/beach-run-bournemouth.jpg);
     background-size: 160%;
@@ -438,34 +445,45 @@ footer h4{
 .event-text p{
     width: 65vw;
     padding-right: 5vw;
-    
-    position: absolute;
-    top: 50%;
+
+
 
     padding-left: 20px;
 }
 
 .event-text h3{
-    position: absolute;
-    top:35%;
     padding-left: 40px;
+    padding-top: 20px
 }
 
 @media (max-width: 992px) {
     .event-picture{
-        height:inherit;
-        width: 200px;
+    width: 15vw;
+    height: 15vw;
+    }
+
+    .event-block h3{
+        padding-top:5px;
+        font-size: 15px;
+    }
+    .event-text p{
+        width: 60vw;
+        padding-left:20px;
+        padding-top: 0;
+        font-size: 11px;
+
+    }
+}
+
+@media(max-width: 450px){
+    .event-picture{
+    width: 30vw;
+    height: 30vw;
     }
 
     .event-block{
-        font-size: 70%;
-
-
-    }
-
-    .event-text{
-        width: 190px;
-        padding-left:10px;
-
+        width:75vw;
+        position: relative;
+        
     }
 }
