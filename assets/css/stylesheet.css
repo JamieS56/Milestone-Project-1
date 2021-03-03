@@ -69,7 +69,7 @@ nav div a{
         background-color: #002f6c;
         color:#fff;
      }
-
+    
 /*-----------footer-------------*/
 
 footer{
@@ -79,6 +79,7 @@ footer{
     min-height: 120px;
     margin:auto;
     padding: auto;
+    height: auto;
 }
 
 .social-link{
@@ -103,33 +104,40 @@ footer h4{
     padding-right:4px;
 }
 
-    .contact-info{
-        padding-right:20px;
+.contact-info{
+        padding-right:0;
         float: left;
         width: 50vw;
+        height: auto;
+        flex: 50%;
     }
 
-    .social-block{
+.social-block{
         width: 50vw;
         float: left;
-        padding:10px 5px;
+        padding-top:25px;
+        height: auto;
+        flex: 50%;
     }
 
-    .social-header{
+.social-header{
         width: auto;
+
     }
-@media (min-width: 992px) { 
-    .list-inline-item a i{
-        font-size: 250%;
-        padding-right: 50px;
+ 
+
+.list-inline-item a i{
+        font-size: 220%;
+        padding-right: 35px;
         text-align: center;
-    }
+}
 
-        .social-header{
-        text-align: center;
+.social-header{
+    text-align: center;
+}
 
-
-    }
+ .social-icon-list{
+     width: auto;
 
  }
 
@@ -162,18 +170,16 @@ footer h4{
      footer li{ 
          font-size: 16px;
      }
-     .contact-info{
-         width: 100vw;
-
+     footer .row{
+        flex-direction: column;
      }
 
-     .social-block{
-         width:100vw;
-     }
+
+ 
  }
 
 
-  @media (max-width: 320px) {
+@media (max-width: 380px) {
       footer h4{
           font-size: 12px;
       }
@@ -181,6 +187,21 @@ footer h4{
       .social-icon-list{
           padding: 7px 0 0 0;
       }
+
+    footer .contact-info{
+         width: 100vw;
+         flex:100%;
+         text-align: center;
+
+     }
+
+     footer .social-block{
+         width:100vw;
+         flex:100%;
+
+     }
+
+
   
 }
 /*----------------home page-----------------------------*/
