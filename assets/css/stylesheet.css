@@ -28,6 +28,11 @@ body{
 
 }
 
+header .banner h1{
+    height: auto;
+    padding-top: 25px;
+}
+
 nav ul li{
     padding:0 10px;
     text-align: center;
@@ -62,9 +67,6 @@ nav div a{
          height: 100px;
          font-size: 30px;
      }
-
-/*----------------------/header-------------------------*/
-
 
 
 /*----------------home page-----------------------------*/
@@ -138,9 +140,6 @@ nav div a{
 
  }
 
-
-/*--------/Welcome-image------*/
-
 /*---------------------home info-------------------*/
 
 .home-info-container{
@@ -152,15 +151,32 @@ nav div a{
     width: 100vw;
     margin: 2% 10px 2% 10px;
     padding: 0;
-    height:200px
+    height:250px
+}
+
+#about-us-picture, #why-help-image, #how-to-help-image{
+
+    background-position: center;
+    background-size: cover;
+
+    height: 250px;
+    width: 50vw;
+
+    position: relative;
+    margin: 0;
+
 }
 
 #about-us-picture{
     background: url(../images/about-us.jpg);
+    background-position-y: -140px;    
+
 }
 
 #why-help-image{
-    background: url(../images/seal.jpg);
+    background: url(../images/why-help.jpg);
+    background-position-y: -140px;   
+    background-repeat: no-repeat;
     
 }
 
@@ -169,28 +185,13 @@ nav div a{
 
 }
 
-#about-us-picture, #why-help-image, #how-to-help-image{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    height: 180px;
-    width: 50vw;
-
-    position: relative;
-    margin: 0;
-
-}
-
-
-
 #about-us-text, #why-help-text, #how-to-help-text{
     background-color: #01579b;
     color: #fff;
     font-size: 70%;
     padding-top: 10px;
 
-    height: 180px;
+    height: inherit;
     width: 50vw;
 
 }
@@ -208,6 +209,10 @@ nav div a{
  @media (max-width: 768px) {
      #about-us-text{
          left: 40px
+     }
+
+     .home-info-block p{
+         font-size: 14px;
      }
   }
 
@@ -285,9 +290,23 @@ footer h3{
  /*------------------contact form----------*/
 
  #contact-form input{
-     margin-bottom: 5px;
+     margin-bottom: 20px;
  }
 
+.contact-padding{
+    margin: 20px 20vw;
+}
+
+.contact-submit{
+    margin-top: 20px
+}
+
+.contact-us-banner{
+    height:50px;
+    background-color: #01579b;
+    color: white;
+    margin-bottom: 10px;
+}
  /*----------events-------*/
 
  /*----taken from love running project and edited----*/
@@ -324,6 +343,21 @@ footer h3{
 #bournemouth-beach-run-photo{
     background-image: url(../images/beach-run-bournemouth.jpg);
     background-size: 160%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#dolphin-raffle-photo{
+    background: url(../images/dolphin-raffel.jpg);
+    background-size: 160%;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position-x: -30px;
+}
+
+#sponsored-swim-photo{
+    background:url(../images/sponsored-swim.jpg);
+    background-size: 170%;
     background-repeat: no-repeat;
     margin: auto;
 }

@@ -83,9 +83,14 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 ---
 ## Credits
 main-picture-dolphins.jpeg was taken from "https://www.visitsealife.com/loch-lomond/media/0j4pyn4m/little-grey-and-little-white.jpg"
-seal.jpg was taken from "https://theconversation.com/how-diving-seals-plan-ahead-to-save-oxygen-new-research-121909"
-beach-run-bournemouth.jpg was taken from "https://www.visitilfracombe.co.uk/item/beat-the-bach-woolacombe-10k-beach-run/"
 
+why-help.jpg was taken from "https://www.thoughtco.com/thmb/-fRDsfUZsSrInume9ADTIUczuwI=/1887x1415/smart/filters:no_upscale()/83398504-56a5f6d93df78cf7728abcf6.jpg"
+how-to-help.jpg was taken from "https://mission.cmaquarium.org/app/uploads/2020/07/CMA37410-1024x683.jpg"
+about-us.jpg was taken from "https://coresites-cdn-adm.imgix.net/mpora_new/wp-content/uploads/2015/12/Marine-Conservation-Scuba-Diving-Fish-Ocean-680x510.jpg"
+
+beach-run-bournemouth.jpg was taken from "https://www.visitilfracombe.co.uk/item/beat-the-bach-woolacombe-10k-beach-run/"
+dolphin-raffle.jpg was taken from "https://thecarousel.com/wp-content/uploads/2016/03/the-carousel-dolphin.jpg"
+sponsored-swim.jpg was taken from "https://www.southwarknews.co.uk/wp-content/uploads/2019/11/crisis_45857571438-e1572881003253.jpg"
 ---
 ## Acknowledgements 
 i recieved inspiration for this project from save our seas "https://saveourseas.com/"
