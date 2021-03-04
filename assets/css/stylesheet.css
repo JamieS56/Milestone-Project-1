@@ -10,7 +10,7 @@
 }
 
 p{
-    font-size: 16px;
+    font-size: 25px;
 }
 
 /*----------colors------------------*/
@@ -42,6 +42,7 @@ nav ul li{
 nav div a{
     color: black;
     text-decoration: none;
+        font-size: 22px;
 }
 
 .menu-item{
@@ -49,6 +50,10 @@ nav div a{
     float:right;
 }
 
+nav{
+    height:40px;
+
+}
  @media (max-width: 992px) { 
 
 
@@ -77,9 +82,8 @@ footer{
     max-height:200px;
     color: #fff;
     min-height: 120px;
-    margin:auto;
-    padding: auto;
     height: auto;
+    overflow: hidden;
 }
 
 .social-link{
@@ -213,6 +217,7 @@ footer h4{
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    width: 100%;
 }
 
 #welcome-outer{
@@ -266,7 +271,7 @@ footer h4{
         width: 95vw;
         padding-top: 15px;
         bottom: 20px;
-        font-size: 60%;
+        font-size: 55%;
     }
 
     #welcome-image{
@@ -284,8 +289,8 @@ footer h4{
 
 .home-info-block{
     width: 100vw;
-    margin: 2% 10px 2% 10px;
-    padding: 0;
+    margin:  2% 0;
+    padding: 0 5px;
     height:250px
 }
 
@@ -300,11 +305,15 @@ footer h4{
     position: relative;
     margin: 0;
 
+    overflow: hidden;
+
 }
 
 #about-us-picture{
     background: url(../images/about-us.jpg);
-    background-position-y: -140px;    
+    background-position-y: -140px;
+    background-size: cover;
+    background-position: center;    
 
 }
 
@@ -313,11 +322,15 @@ footer h4{
     background-position-y: -100px;   
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     
 }
 
 #how-to-help-image{
+
     background: url(../images/how-to-help.jpg);
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -348,7 +361,7 @@ footer h4{
      }
 
      .home-info-block p{
-         font-size: 14px;
+         font-size: 13.5px;
      }
   }
 
@@ -447,9 +460,6 @@ footer h4{
 .event-text p{
     width: 65vw;
     padding-right: 5vw;
-
-
-
     padding-left: 20px;
 }
 
@@ -486,8 +496,14 @@ footer h4{
     .event-block{
         width:75vw;
         position: relative;
-        
+        height: auto;
     }
+
+        .event-text{
+            height:auto;
+        }
+        .event-inner{
+            height:auto;
 }
 
 /*--------------------------Donation Page-------------------------*/
@@ -516,5 +532,5 @@ footer h4{
 @media (max-width: 992px) {
     .donation-padding{
     margin: 20px 10vw;
+    }
 }
- }
