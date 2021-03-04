@@ -361,6 +361,11 @@ footer h4{
 
      .home-info-block p{
          font-size: 13.5px;
+         
+     }
+
+     .home-info-block{
+         width:95vw;
      }
   }
 
