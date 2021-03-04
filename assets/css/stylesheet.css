@@ -278,7 +278,7 @@ footer h4{
 /*---------------------home info-------------------*/
 
 .home-info-container{
-    padding:2px;
+    padding:0;
     height: auto
 }
 
@@ -310,8 +310,9 @@ footer h4{
 
 #why-help-image{
     background: url(../images/why-help.jpg);
-    background-position-y: -140px;   
+    background-position-y: -100px;   
     background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -374,6 +375,7 @@ footer h4{
     color: white;
     margin-bottom: 10px;
 }
+
 @media (max-width: 992px) {
     .contact-padding{
     margin: 20px 10vw;
@@ -487,3 +489,32 @@ footer h4{
         
     }
 }
+
+/*--------------------------Donation Page-------------------------*/
+
+.donation-banner{
+    height:50px;
+    background-color: #01579b;
+    color: white;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+#donation-form input{
+     margin-bottom: 20px;
+ }
+
+.donation-padding{
+    margin: 20px 20vw;
+}
+
+.donation-submit{
+    margin-top: 20px
+}
+
+
+@media (max-width: 992px) {
+    .donation-padding{
+    margin: 20px 10vw;
+}
+ }

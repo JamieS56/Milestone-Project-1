@@ -53,16 +53,22 @@
 </nav>
 </header>
 
-<form>
-    <input type= "email" name="email" id="email" class="form-control" placeholder="Email" required/>
-    <input type="number" name="money" id="money" class="form-control" placeholder="Donation amount" required/>
-    <input type="number" name="card-number" id="card-number" class="form-control" placeholder="card-number" required/>
 
-    <input type="date" name="date" id="card-expiary" class="form-control" required/>>
-    <input type="submit" name ="submit">
+    <div class="donation-padding">   
+        <div class="donation-banner">
+            <h3 class="contact-heading uppercase text-center">Donate down below!</h3>
+        </div>
 
-</form>
+        <form id="donation-form">
+            <input type= "email" name="email" id="email" class="form-control" placeholder="Email" required/>
+            <input type="number" name="money" id="money" class="form-control" placeholder="Donation amount" required/>
+            <input type="number" name="card-number" id="card-number" class="form-control" placeholder="card-number" required/>
 
+            <input type="date" name="date" id="card-expiary" class="form-control" required/>
+         <button type="submit" class="btn btn-secondary donation-submit">Donate!</button>
+
+        </form>
+    </div>
 
 <footer>
 
