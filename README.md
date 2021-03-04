@@ -80,6 +80,8 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 
 ---
 ## Deployment
+
+to deploy the website i went onto github and clicked on my project, scrolled down to the bottom and switched the sauce from none to main. then refreshed the page scroll back down and my link was there.
 ---
 ## Credits
 main-picture-dolphins.jpeg was taken from "https://www.visitsealife.com/loch-lomond/media/0j4pyn4m/little-grey-and-little-white.jpg"

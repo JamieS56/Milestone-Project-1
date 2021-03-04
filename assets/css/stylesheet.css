@@ -13,6 +13,9 @@ p{
     font-size: 25px;
 }
 
+.main{
+      min-height: calc(100vh - 260px);
+}
 /*----------colors------------------*/
 
 body{
@@ -48,18 +51,19 @@ nav div a{
 .menu-item{
     padding-left:20px;
     float:right;
+    width:10%;
 }
 
 nav{
-    height:40px;
+    height:auto;
 
+}
+
+.menu-list{
+    justify-content: center;
 }
  @media (max-width: 992px) { 
 
-
-    nav{
-        min-height: 30px;
-    }
 
     .desktop-header{
         margin-top: 10px;
@@ -79,7 +83,7 @@ nav{
 
 footer{
     background-color:#002f6c;
-    max-height:200px;
+
     color: #fff;
     min-height: 120px;
     height: auto;
@@ -124,21 +128,15 @@ footer h4{
         flex: 50%;
     }
 
-.social-header{
-        width: auto;
-
-    }
  
 
 .list-inline-item a i{
         font-size: 220%;
         padding-right: 35px;
         text-align: center;
+        color: #fff;
 }
 
-.social-header{
-    text-align: center;
-}
 
  .social-icon-list{
      width: auto;
@@ -153,12 +151,6 @@ footer h4{
     }
     .general-sub{
         font-size: 100%;
-
-    }
-
-    .social-header{
-        text-align: center;
-        padding: 0 5px 0 32px;
 
     }
     
@@ -216,13 +208,13 @@ footer h4{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: auto;
     width: 100%;
 }
 
 #welcome-outer{
 
-    height:100%;
+    height:auto;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -235,7 +227,7 @@ footer h4{
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 40vw;
+    width: 50vw;
     height: auto;
 
     padding: 20px 10px 20px 40px;
@@ -249,6 +241,8 @@ footer h4{
     color: white;
 
     overflow: none;
+
+    left: 10vw;
 }
 
 #welcome-text h2{
@@ -284,23 +278,34 @@ footer h4{
 
 .home-info-container{
     padding:0;
-    height: auto
+    height: auto;
+    justify-content: center;
+    display: grid;
 }
 
 .home-info-block{
-    width: 100vw;
+    width: 50vw;
     margin:  2% 0;
     padding: 0 5px;
-    height:250px
+    height: auto;
+}
+
+#about-us-text p, #how-to-help-text p{
+    padding-left: 14px;
+    padding-right: 7px;
+}
+
+#why-help-text p{
+    padding-left: 7px;
+    padding-right: 14px;
 }
 
 #about-us-picture, #why-help-image, #how-to-help-image{
 
     background-position: center;
     background-size: cover;
+    height: 100%;
 
-    height: 250px;
-    width: 50vw;
 
     position: relative;
     margin: 0;
@@ -338,9 +343,9 @@ footer h4{
     background-color: #01579b;
     color: #fff;
     font-size: 70%;
-    padding-top: 10px;
+    padding: 10px 0 0 0;
 
-    height: inherit;
+
     width: 50vw;
 
 }
@@ -349,16 +354,10 @@ footer h4{
     padding-left: 7px;
 }
 
-.r-col{
-    margin-right:2px;
 
-
-}
 
  @media (max-width: 768px) {
-     #about-us-text{
-         left: 40px
-     }
+
 
      .home-info-block p{
          font-size: 13.5px;
@@ -383,7 +382,7 @@ footer h4{
 }
 
 .contact-us-banner{
-    height:50px;
+    height:auto;
     background-color: #01579b;
     color: white;
     margin-bottom: 10px;
@@ -399,8 +398,8 @@ footer h4{
 
  /*----taken from love running project and edited----*/
  .event-picture {
-    width: 15vw;
-    height: 15vw;
+    width: 150px;
+    height: 150px;
     padding: 0;
     border-style: solid;
     border-color: #1b1b1b;
@@ -421,7 +420,7 @@ footer h4{
     color:#fff;
     margin: 10px auto;
     position: relative;
-    height: 15vw;
+    height: auto;
     width: 75vw;
     border-style: solid;
     border-color: #1b1b1b;
@@ -429,7 +428,7 @@ footer h4{
 }
 
 .event-inner{
-    height: 15vw;
+    height: auto;
     width: 75vw;
     margin:0;
 
@@ -471,7 +470,7 @@ footer h4{
 @media (max-width: 992px) {
     .event-picture{
     width: 15vw;
-    height: 15vw;
+    height: auto;
     }
 
     .event-block h3{
@@ -490,7 +489,7 @@ footer h4{
 @media(max-width: 450px){
     .event-picture{
     width: 30vw;
-    height: 30vw;
+    height: auto;
     }
 
     .event-block{
@@ -509,7 +508,7 @@ footer h4{
 /*--------------------------Donation Page-------------------------*/
 
 .donation-banner{
-    height:50px;
+    height:auto;
     background-color: #01579b;
     color: white;
     margin-bottom: 10px;
@@ -529,8 +528,9 @@ footer h4{
 }
 
 
-@media (max-width: 992px) {
+    @media(max-width: 992px){
+
     .donation-padding{
     margin: 20px 10vw;
     }
-}
+    }
