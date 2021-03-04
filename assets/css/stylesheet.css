@@ -16,6 +16,10 @@ p{
 .main{
       min-height: calc(100vh - 260px);
 }
+
+.allign-items-center{
+    justify-content: center;
+}
 /*----------colors------------------*/
 
 body{
@@ -45,13 +49,13 @@ nav ul li{
 nav div a{
     color: black;
     text-decoration: none;
-        font-size: 22px;
+    font-size: 22px;
 }
 
 .menu-item{
     padding-left:20px;
     float:right;
-    width:10%;
+    width:auto;
 }
 
 nav{
@@ -68,6 +72,10 @@ nav{
     .desktop-header{
         margin-top: 10px;
 
+    }
+
+    .menu-item a{
+        font-size: 15px;
     }
 
  }
@@ -170,6 +178,15 @@ footer h4{
         flex-direction: column;
      }
 
+     footer{
+         padding: 0;
+         margin: 0;
+     }
+
+     .contact-heading h3{
+         padding: 0;
+         margin: 0;
+     }
 
  
  }
@@ -182,6 +199,7 @@ footer h4{
       
       .social-icon-list{
           padding: 7px 0 0 0;
+
       }
 
     footer .contact-info{
@@ -192,9 +210,10 @@ footer h4{
      }
 
      footer .social-block{
-         width:100vw;
-         flex:100%;
-
+        width: 100vw;
+        flex: 100%;
+        padding-top: 0;
+        justify-content: center;
      }
 
 
@@ -208,7 +227,7 @@ footer h4{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    height: 500px;
     width: 100%;
 }
 
@@ -216,7 +235,7 @@ footer h4{
 
     height:auto;
     width: 100%;
-    overflow: hidden;
+
     position: relative;
     margin-bottom: 10px;
 }
@@ -243,6 +262,11 @@ footer h4{
     overflow: none;
 
     left: 10vw;
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #welcome-text h2{
@@ -252,7 +276,7 @@ footer h4{
  @media (max-width: 768px) { 
 
     #welcome-text{
-        width: 65vw;
+        width: auto;
         padding-top: 15px;
         bottom: 20px;
     }
@@ -262,12 +286,15 @@ footer h4{
   @media (max-width: 550px) { 
 
     #welcome-text{
-        width: 95vw;
-        padding-top: 15px;
-        bottom: 20px;
-        font-size: 55%;
+       width: auto;
+    padding-top: 15px;
+    bottom: 20px;
+    left: auto;
     }
 
+    #welcome-text p{
+            font-size: 12px;
+    }
     #welcome-image{
         background-position-x: -180px;
     }
@@ -284,7 +311,7 @@ footer h4{
 }
 
 .home-info-block{
-    width: 50vw;
+    width: 65vw;
     margin:  2% 0;
     padding: 0 5px;
     height: auto;
@@ -292,11 +319,11 @@ footer h4{
 
 #about-us-text p, #how-to-help-text p{
     padding-left: 14px;
-    padding-right: 7px;
+    padding-right: 15px;
 }
 
 #why-help-text p{
-    padding-left: 7px;
+    padding-left: 15px;
     padding-right: 14px;
 }
 
@@ -346,17 +373,17 @@ footer h4{
     padding: 10px 0 0 0;
 
 
-    width: 50vw;
+    width: 60vw;
 
 }
 
 #about-us p, h3{
-    padding-left: 7px;
+    padding-left: 15px;
 }
 
 
 
- @media (max-width: 768px) {
+ @media (max-width: 868px) {
 
 
      .home-info-block p{
@@ -528,14 +555,14 @@ footer h4{
     margin: 20px 20vw;
 }
 
-.donation-submit{
-    margin-top: 20px
+    .donation-submit{
+    margin-top: 20px;
 }
 
 
-    @media(max-width: 992px){
+@media(max-width: 992px){
 
     .donation-padding{
     margin: 20px 10vw;
     }
-    }
+}
