@@ -23,7 +23,6 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 * "As a passionate dolphin lover I want to be able to donate easily and simply without having to fill out lots of forms to help out."
 * "As someone who is studying Marine biology I want to learn ways in which I can help the oceans in an easy format."
 * "As someone who is looking to set up a charity drive I want to be able to find the most effective ways to raise money."
-* "As someone who lives near the sea I would like to know if any events are taking place near me and if I can attend."
 * "As someone who isnt' good with the internet i would like to be able to easily find out how to contact Save the Seas and find out more via a newsletter or phone call."
 
 
@@ -63,11 +62,29 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 2. Circles look cleaner on the bigger page and fit nicely on the page with the content clearly linked to the picture plus there's room to have all the info next to each other on the bigger screen.
 3. Just checking what the menu bar looks like as a button bar rather than hidden, i prefer the hidden menu.
 
-![Events page Wireframes](./assets/wireframes/events.png)
+
+
 ![Donation page Wireframes](./assets/wireframes/donation.png)
+
+1. Just a little bit of text to get people to donate.
+2. Just a simple form to be able to donate.
+
+![Events page Wireframes](./assets/wireframes/events.png)
+
+1. Circle looks nice and clean.
+2. I did think about putting the events horizontally but vertically works better for adding more events in the future.
+
 ![Contact page Wireframes](./assets/wireframes/contact.png)
+
+1. just a realy simple and intuitive form to fill out.
 ---
 ## Features
+
+1. Home page that consits of info about the charity.
+2. Events page with the history of fundraisers held by the charity.
+3. Donation page for users to donate money.
+4. Contact page for users to send in questions.
+
 ---
 ## Technologies Used
 ---
@@ -75,7 +92,19 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 
 1. Nav bar:
     i. Clicking the button on the dropdown menu doesn't open the dropdown. As this is only a feature on destop size and is a non-crucial element of the page i am going to change it to the same menu as the mobile and tablet.
-    ii. 
+    ii. Nav bar is now just a clickable link menu. you can go to each page via any of the pages by using the nav bar.
+
+2. Donation Page:
+    i. One user wanted to be able to donate simply and easily.
+    ii.  On the page it is very simple with everything on one page and only one button to submit once card details and name is inputted.
+
+3. Events page
+    i. One user wanted to learn about charity events and best ways to raise money.
+    ii. the event age is clearly visible when you first load up the website. and if you click on that it will give you information about our previose charity events.
+
+4. Non internet Contact:
+    i. One user wants to be able to contact us but not via our contact page.
+    ii. in the footer of every page is our phone number and email but our contact form is also very intuitive and easy to use with just one button and a text box to put in there question.
 
 
 ---
