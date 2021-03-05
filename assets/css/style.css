@@ -1,5 +1,5 @@
   @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-/*------- general -------*/
+/*------------------------------------------------------------------------------------------------ general ---------------------------------------------------*/
 
 .text-center{
     text-align: center;
@@ -20,13 +20,13 @@ p{
 .allign-items-center{
     justify-content: center;
 }
-/*----------colors------------------*/
+/*-------------------------------------------------------------------------------------------------colors--------------------------------------------------*/
 
 body{
     background-color: #1e88e5;
 }
 
-/*-------------------header------------------------------------*/
+/*---------------------------------------------------------------------------------------------------header---------------------------------------------------------------*/
 
 .header{
     padding-top: 25px;
@@ -87,7 +87,7 @@ nav{
         color:#fff;
      }
     
-/*-----------footer-------------*/
+/*--------------------------------------------------------------------------------------------footer---------------------------------------------*/
 
 footer{
     background-color:#002f6c;
@@ -134,6 +134,8 @@ footer h4{
         padding-top:25px;
         height: auto;
         flex: 50%;
+        align-content: center;
+        justify-content: flex-end;
     }
 
  
@@ -149,6 +151,10 @@ footer h4{
  .social-icon-list{
      width: auto;
 
+ }
+
+ .contact-info li{
+     width:auto;
  }
 
  @media (max-width: 992px) { 
@@ -167,10 +173,8 @@ footer h4{
     }
  }
 
- @media (max-width:768){
-     footer .contact-info{
-        width: 50%;
-     }
+ @media(max-width: 768px){
+  
      footer li{ 
          font-size: 16px;
      }
@@ -181,11 +185,28 @@ footer h4{
      footer{
          padding: 0;
          margin: 0;
+         text-align: center;
+     }
+
+     footer .row{
+         padding:0;
+         margin:0;
+         align-content: center;
+     }
+
+     .contact-info{
+         padding:0;
+                 width: 50%;
      }
 
      .contact-heading{
          padding: 0;
          margin: 0;
+     }
+
+     .contact-info ul{
+         padding:5px 0;
+         margin:0;
      }
 
  
@@ -219,7 +240,7 @@ footer h4{
 
   
 }
-/*----------------home page-----------------------------*/
+/*---------------------------------------------------------------------------------------------home page-------------------------------------------------------------*/
 
 /*---Welcome image (this was taken from the resume project and love running project)----*/
 #welcome-image{
@@ -301,7 +322,7 @@ footer h4{
 
  }
 
-/*---------------------home info-------------------*/
+/*----------------------------------------------------------------------------------------home info------------------------------------------------------------*/
 
 .home-info-container{
     padding:0;
@@ -311,7 +332,7 @@ footer h4{
 }
 
 .home-info-block{
-    width: 65vw;
+    width: 70vw;
     margin:  2% 0;
     padding: 0 5px;
     height: auto;
@@ -535,6 +556,7 @@ footer h4{
         }
         .event-inner{
             height:auto;
+        }
 }
 
 /*--------------------------Donation Page-------------------------*/
@@ -560,9 +582,13 @@ footer h4{
 }
 
 
-@media(max-width: 992px){
+@media(max-width:992px){
 
     .donation-padding{
     margin: 20px 10vw;
     }
+
+
+
+
 }
