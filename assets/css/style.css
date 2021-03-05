@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Open+Sans&family=Roboto:ital,wght@1,300&display=swap');
 /*------------------------------------------------------------------------------------------------ general ---------------------------------------------------*/
 
 .text-center{
@@ -11,6 +11,11 @@
 
 p{
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: 'Open Sans', sans-serif;
 }
 
 .main{
@@ -338,6 +343,10 @@ footer h4{
     height: auto;
 }
 
+.home-info-block h3{
+    font-weight: 500;
+}
+
 #about-us-text p, #how-to-help-text p{
     padding-left: 14px;
     padding-right: 15px;
@@ -447,7 +456,7 @@ footer h4{
 }
  }
 
- /*----------events-------*/
+ /*----------------------------------------------------------------------------events-------------------------------------------------------------------*/
 
  /*----taken from love running project and edited----*/
  .event-picture {
@@ -459,10 +468,11 @@ footer h4{
     border-width: 1px;
     border-radius: 50%;
     margin-right: 20px;
-    position: absolute;
-    border-left: none;
-    right: -100px;
-    top: -2px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+ 
+
 }
 
 .event-block{
@@ -471,12 +481,13 @@ footer h4{
     margin: 10px auto;
     position: relative;
     height: auto;
-    width: 75vw;
+    width: max-content;
     border-style: solid;
     border-color: #1b1b1b;
     border-width: 1px;
     padding: 15px 0;
     margin-top: 30px;
+       flex-wrap: nowrap;
 }
 
 .event-inner{
@@ -490,14 +501,12 @@ footer h4{
     background-image: url(../images/beach-run-bournemouth.jpg);
     background-size: 160%;
     background-repeat: no-repeat;
-    margin: auto;
 }
 
 #dolphin-raffle-photo{
     background: url(../images/dolphin-raffel.jpg);
     background-size: 160%;
     background-repeat: no-repeat;
-    margin: auto;
     background-position-x: -30px;
 }
 
@@ -505,33 +514,36 @@ footer h4{
     background:url(../images/sponsored-swim.jpg);
     background-size: 170%;
     background-repeat: no-repeat;
-    margin: auto;
 }
 
 .event-text p{
     width: 65vw;
-    padding-right: 5vw;
     padding-left: 20px;
 }
 
 .event-text h3{
-    padding-left: 40px;
-    padding-top: 20px
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight:500;
 }
 
 @media (max-width: 992px) {
     .event-picture{
-    width: 15vw;
-    height: auto;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
     }
 
     .event-block h3{
         padding-top:5px;
         font-size: 15px;
+        padding-left: 10px;
+        
+
     }
     .event-text p{
         width: 60vw;
-        padding-left:20px;
+        padding-left:10px;
         padding-top: 0;
         font-size: 11px;
 
@@ -540,22 +552,21 @@ footer h4{
 
 @media(max-width: 450px){
     .event-picture{
-    width: 30vw;
-    height: auto;
+    width: 90px;
+    height: 90px;
+        align-self: center;
     }
 
     .event-block{
-        width:75vw;
-        position: relative;
+        width:fit-content;
         height: auto;
     }
 
         .event-text{
             height:auto;
         }
-        .event-inner{
-            height:auto;
-        }
+
+    
 }
 
 /*--------------------------Donation Page-------------------------*/
