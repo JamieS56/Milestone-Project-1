@@ -1,5 +1,7 @@
 # Save-The-Seas
 
+![Mockup of Homepage](./assets/images/index-mockup.png)
+
 ## What is Save The Seas?
 
 Save the seas is a charity that is dedicated to the conservation of sea life and our oceans.
@@ -12,7 +14,7 @@ The Goals of the website in order of importance:
  This Website is the best way to do this as the internet is clearly the new way to advertise products, buisnesses, ideas and easily share them around via social media which is want Save the Seas want to spread awareness of Sea life. As this website will have a modile first aproach this will help with the shareability of the website.
 
 ---
-## UX
+## UX:
 
 ### Who is Save the Seas for?
 
@@ -64,31 +66,62 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 
 
 
+### Donation Page
+
 ![Donation page Wireframes](./assets/wireframes/donation.png)
 
 1. Just a little bit of text to get people to donate.
 2. Just a simple form to be able to donate.
+
+
+
+### Events Page
 
 ![Events page Wireframes](./assets/wireframes/events.png)
 
 1. Circle looks nice and clean.
 2. I did think about putting the events horizontally but vertically works better for adding more events in the future.
 
+
+
+### Contact Page
+
 ![Contact page Wireframes](./assets/wireframes/contact.png)
 
 1. just a realy simple and intuitive form to fill out.
+
+
+
 ---
-## Features
+## Features:
 
 1. Home page that consits of info about the charity.
 2. Events page with the history of fundraisers held by the charity.
 3. Donation page for users to donate money.
 4. Contact page for users to send in questions.
+5. Social links that direct to our socials.
 
 ---
-## Technologies Used
+## Technologies Used:
+
+1. [Bootstrap](https://getbootstrap.com/)
+    * Bootstrap was used to help create a layout using columns. 
+    * I also attempted a bootstrap nav bar but ended up just using links.
+    * Bootstrap was also used to create forms on the contact and donation page.
+
+2. [Font Awesome](https://fontawesome.com/v4.7.0/)
+    * Font Awesome was used to bring in custom icons on the website.
+
+3. [Google Fonts](https://fonts.google.com/?preview.text_type=custom)
+    * Google fonts was used to bring specific fonts to the website making it look better.
+
+4. [tinypng.com](https://tinypng.com/)
+    * I used tinypng.com to reduce the size of all my images so the page can load faster making a better user experience.
+
+5. [Color Tool](https://material.io/resources/color)
+    * I used color tool to help get a complimentry color scheme across the websiteto make a good user experience.
 ---
-## Testing
+## Testing:
 
 1. Nav bar:
     i. Clicking the button on the dropdown menu doesn't open the dropdown. As this is only a feature on destop size and is a non-crucial element of the page i am going to change it to the same menu as the mobile and tablet.
@@ -97,31 +130,50 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 2. Donation Page:
     i. One user wanted to be able to donate simply and easily.
     ii.  On the page it is very simple with everything on one page and only one button to submit once card details and name is inputted.
+    iii. Although the form is very easy to fill out and understand, the data does not go anywhere or get processed once submit is pressed.
 
 3. Events page
     i. One user wanted to learn about charity events and best ways to raise money.
     ii. the event age is clearly visible when you first load up the website. and if you click on that it will give you information about our previose charity events.
 
-4. Non internet Contact:
+4. Contact Page:
+    i.  Although the form is very easy to fill out and understand, the data does not go anywhere or get processed once submit is pressed.
+
+5. Non internet Contact:
     i. One user wants to be able to contact us but not via our contact page.
     ii. in the footer of every page is our phone number and email but our contact form is also very intuitive and easy to use with just one button and a text box to put in there question.
 
+6. Websites design on different sized devices:
+    i. The website haas been designed with a mobile first view but has been tested on all screen sizes with the exact same funtionality and accesibility to all features of the website as you would get on both desktop and tablet.
+    ii. The design of the website still looks good across all screen sizes aswell.
 
+7. HTML Validation:
+
+    i. I used the W3 validatur to validate all my pages.
+
+    * Home Page [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamies56.github.io%2FMilestone-Project-1%2Findex.html)
+    * Donation Page [donate.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamies56.github.io%2FMilestone-Project-1%2Fdonate.html)
+    * Events Page [events.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamies56.github.io%2FMilestone-Project-1%2Fevents.html)
+    * Contact Page [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamies56.github.io%2FMilestone-Project-1%2Fcontact.html)
+
+    ii. There are no errors across any of the pages, only a warning about the document not being mapable to XML 1.0 due to having two consecutive hyphens. however it is required to have to consecutive hyphens to heve comments in the code.
 ---
-## Deployment
+## Deployment:
 
-to deploy the website i went onto github and clicked on my project, scrolled down to the bottom and switched the sauce from none to main. then refreshed the page scroll back down and my link was there.
+To deploy the website i went onto github and clicked on my project, scrolled down to the bottom and switched the sauce from none to main. then refreshed the page scroll back down and my link was there.
+
 ---
 ## Credits
-main-picture-dolphins.jpeg was taken from "https://www.visitsealife.com/loch-lomond/media/0j4pyn4m/little-grey-and-little-white.jpg"
 
-why-help.jpg was taken from "https://www.thoughtco.com/thmb/-fRDsfUZsSrInume9ADTIUczuwI=/1887x1415/smart/filters:no_upscale()/83398504-56a5f6d93df78cf7728abcf6.jpg"
-how-to-help.jpg was taken from "https://mission.cmaquarium.org/app/uploads/2020/07/CMA37410-1024x683.jpg"
-about-us.jpg was taken from "https://coresites-cdn-adm.imgix.net/mpora_new/wp-content/uploads/2015/12/Marine-Conservation-Scuba-Diving-Fish-Ocean-680x510.jpg"
-
-beach-run-bournemouth.jpg was taken from "https://www.visitilfracombe.co.uk/item/beat-the-bach-woolacombe-10k-beach-run/"
-dolphin-raffle.jpg was taken from "https://thecarousel.com/wp-content/uploads/2016/03/the-carousel-dolphin.jpg"
-sponsored-swim.jpg was taken from "https://www.southwarknews.co.uk/wp-content/uploads/2019/11/crisis_45857571438-e1572881003253.jpg"
+* main-picture-dolphins.jpeg was taken from [visitsealife.com](https://www.visitsealife.com/loch-lomond/media/0j4pyn4m/little-grey-and-little-white.jpg)
+* why-help.jpg was taken from [thoughtco.com](https://www.thoughtco.com/thmb/-fRDsfUZsSrInume9ADTIUczuwI=/1887x1415/smart/filters:no_upscale()/83398504-56a5f6d93df78cf7728abcf6.jpg)
+* how-to-help.jpg was taken from [mission.cmaquarium.org](https://mission.cmaquarium.org/app/uploads/2020/07/CMA37410-1024x683.jpg)
+* about-us.jpg was taken from [core-sites-cdn-adm.imgix.net](https://coresites-cdn-adm.imgix.net/mpora_new/wp-content/uploads/2015/12/Marine-Conservation-Scuba-Diving-Fish-Ocean-680x510.jpg)
+* beach-run-bournemouth.jpg was taken from [visitilfracombe.co.uk](https://www.visitilfracombe.co.uk/item/beat-the-bach-woolacombe-10k-beach-run/)
+* dolphin-raffle.jpg was taken from [thecarousel.com](https://thecarousel.com/wp-content/uploads/2016/03/the-carousel-dolphin.jpg)
+* sponsored-swim.jpg was taken from [southwarknews.co.uk](https://www.southwarknews.co.uk/wp-content/uploads/2019/11/crisis_45857571438-e1572881003253.jpg)
 ---
+
 ## Acknowledgements 
-i recieved inspiration for this project from save our seas "https://saveourseas.com/"
+
+I recieved inspiration for this project from [Save Our Seas](https://saveourseas.com/)

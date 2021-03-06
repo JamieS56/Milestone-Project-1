@@ -1,106 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo&family=Open+Sans&family=Roboto:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo&family=Open+Sans&family=Roboto:ital,wght@1,300&display=swap");
 /*------------------------------------------------------------------------------------------------ general ---------------------------------------------------*/
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.no-gutters{
+.no-gutters {
     padding: 0;
 }
 
-p{
+p {
     font-size: 25px;
-    font-family: 'Roboto', sans-serif;;
+    font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6{
-font-family: 'Open Sans', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", sans-serif;
 }
 
-.main{
-      min-height: calc(100vh - 260px);
+.main {
+    min-height: calc(100vh - 260px);
 }
 
-.allign-items-center{
+.allign-items-center {
     justify-content: center;
 }
 /*-------------------------------------------------------------------------------------------------colors--------------------------------------------------*/
 
-body{
+body {
     background-color: #1e88e5;
 }
 
 /*---------------------------------------------------------------------------------------------------header---------------------------------------------------------------*/
 
-.header{
+.header {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 20px;
-
 }
 
-header .banner h1{
+header .banner h1 {
     height: auto;
     text-transform: uppercase;
-
 }
 
-nav ul li{
-    padding:0 10px;
+nav ul li {
+    padding: 0 10px;
     text-align: center;
     font-weight: bold;
 }
 
-nav div a{
+nav div a {
     color: black;
     text-decoration: none;
     font-size: 22px;
 }
 
-.menu-item{
-    padding-left:20px;
-    float:right;
-    width:auto;
+.menu-item {
+    padding-left: 20px;
+    float: right;
+    width: auto;
 }
 
-nav{
-    height:auto;
-
+nav {
+    height: auto;
 }
 
-.menu-list{
+.menu-list {
     justify-content: center;
 }
 
-.banner{
-    padding:20px 0;
+.banner {
+    padding: 20px 0;
 }
- @media (max-width: 992px) { 
-
-
-    .desktop-header{
+@media (max-width: 992px) {
+    .desktop-header {
         margin-top: 10px;
-
     }
 
-    .menu-item a{
+    .menu-item a {
         font-size: 15px;
     }
+}
 
- }
+.banner {
+    height: auto;
+    font-size: 30px;
+    background-color: #002f6c;
+    color: #fff;
+}
 
-     .banner{
-         height: auto;
-         font-size: 30px;
-        background-color: #002f6c;
-        color:#fff;
-     }
-    
 /*--------------------------------------------------------------------------------------------footer---------------------------------------------*/
 
-footer{
-    background-color:#002f6c;
+footer {
+    background-color: #002f6c;
 
     color: #fff;
     min-height: 120px;
@@ -108,153 +106,136 @@ footer{
     overflow: hidden;
 }
 
-.social-link{
+.social-link {
     padding: 20px 0;
     text-align: center;
     font-size: 280%;
 }
 
-footer ul{
+footer ul {
     list-style: none;
 }
 
-footer h3{
-
+footer h3 {
     padding-left: 32px;
     padding-top: 10px;
     font-weight: normal;
 }
 
-footer h4{ 
-    float:right;
-    padding-right:4px;
+footer h4 {
+    float: right;
+    padding-right: 4px;
 }
 
-.contact-info{
-        padding-right:0;
-        float: left;
-        width: 50vw;
-        height: auto;
-        flex: 50%;
-    }
-
-.social-block{
-        width: 50vw;
-        float: left;
-        padding-top:25px;
-        height: auto;
-        flex: 50%;
-        align-content: center;
-        justify-content: flex-end;
-    }
-
- 
-
-.list-inline-item a i{
-        font-size: 220%;
-        padding-right: 35px;
-        text-align: center;
-        color: #fff;
+.contact-info {
+    padding-right: 0;
+    float: left;
+    width: 50vw;
+    height: auto;
+    flex: 50%;
 }
 
+.social-block {
+    width: 50vw;
+    float: left;
+    padding-top: 25px;
+    height: auto;
+    flex: 50%;
+    align-content: center;
+    justify-content: flex-end;
+}
 
- .social-icon-list{
-     width: auto;
+.list-inline-item a i {
+    font-size: 220%;
+    padding-right: 35px;
+    text-align: center;
+    color: #fff;
+}
 
- }
+.social-icon-list {
+    width: auto;
+}
 
- .contact-info li{
-     width:auto;
- }
+.contact-info li {
+    width: auto;
+}
 
- @media (max-width: 992px) { 
-    .list-inline-item a i{
+@media (max-width: 992px) {
+    .list-inline-item a i {
         font-size: 110%;
         padding-right: 2px;
-
     }
-    .general-sub{
+    .general-sub {
         font-size: 100%;
-
     }
-    
-    .social-icon-list{
-        padding-left:0;
-    }
- }
 
- @media(max-width: 768px){
-  
-     footer li{ 
-         font-size: 16px;
-     }
-     footer .row{
+    .social-icon-list {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    footer li {
+        font-size: 16px;
+    }
+    footer .row {
         flex-direction: column;
-     }
+    }
 
-     footer{
-         padding: 0;
-         margin: 0;
-         text-align: center;
-     }
+    footer {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
 
-     footer .row{
-         padding:0;
-         margin:0;
-         align-content: center;
-     }
+    footer .row {
+        padding: 0;
+        margin: 0;
+        align-content: center;
+    }
 
-     .contact-info{
-         padding:0;
-                 width: 50%;
-     }
+    .contact-info {
+        padding: 0;
+        width: 50%;
+    }
 
-     .contact-heading{
-         padding: 10px 0 0 0;
-         margin: 0;
+    .contact-heading {
+        padding: 10px 0 0 0;
+        margin: 0;
+    }
 
-     }
-
-     .contact-info ul{
-         padding:5px 0;
-         margin:0;
-     }
-
- 
- }
-
+    .contact-info ul {
+        padding: 5px 0;
+        margin: 0;
+    }
+}
 
 @media (max-width: 450px) {
-      footer h4{
-          font-size: 12px;
-      }
-      
-      .social-icon-list{
-          padding: 7px 0 0 0;
+    footer h4 {
+        font-size: 12px;
+    }
 
-      }
+    .social-icon-list {
+        padding: 7px 0 0 0;
+    }
 
-    footer .contact-info{
-         width: 100vw;
-         flex:100%;
-         text-align: center;
+    footer .contact-info {
+        width: 100vw;
+        flex: 100%;
+        text-align: center;
+    }
 
-     }
-
-     footer .social-block{
+    footer .social-block {
         width: 100vw;
         flex: 100%;
         padding-top: 0;
         justify-content: center;
-     }
-
-
-  
+    }
 }
 /*---------------------------------------------------------------------------------------------home page-------------------------------------------------------------*/
 
 /*---Welcome image (this was taken from the resume project and love running project)----*/
-#welcome-image{
+#welcome-image {
     background: url(../images/main-picture-dolphins.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -263,9 +244,8 @@ footer h4{
     width: 100%;
 }
 
-#welcome-outer{
-
-    height:auto;
+#welcome-outer {
+    height: auto;
     width: 100%;
 
     position: relative;
@@ -283,10 +263,9 @@ footer h4{
 
     padding: 20px 10px 20px 40px;
 
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, 0.7);
 
     bottom: 30px;
-
 
     position: absolute;
     color: white;
@@ -294,182 +273,167 @@ footer h4{
     overflow: none;
 
     left: 10vw;
-        
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#welcome-text h2{
+#welcome-text h2 {
     font-size: 140%;
 }
 
-
-
- @media (max-width: 768px) { 
-
-    #welcome-text{
+@media (max-width: 768px) {
+    #welcome-text {
         width: auto;
         padding-top: 15px;
         bottom: 20px;
     }
+}
 
- }
-
-  @media (max-width: 550px) { 
-
-    #welcome-text{
-       width: auto;
-    padding-top: 15px;
-    bottom: 20px;
-    left: auto;
+@media (max-width: 550px) {
+    #welcome-text {
+        width: auto;
+        padding-top: 15px;
+        bottom: 20px;
+        left: auto;
     }
 
-    #welcome-text p{
-            font-size: 12px;
+    #welcome-text p {
+        font-size: 12px;
     }
-    #welcome-image{
+    #welcome-image {
         background-position-x: -180px;
     }
-
- }
+}
 
 /*----------------------------------------------------------------------------------------home info------------------------------------------------------------*/
 
-.home-info-container{
-    padding:0;
+.home-info-container {
+    padding: 0;
     height: auto;
     justify-content: center;
     display: grid;
 }
 
-.home-info-block{
+.home-info-block {
     width: 70vw;
-    margin:  2% 0;
+    margin: 2% 0;
     padding: 0 5px;
     height: auto;
 }
 
-.home-info-block h3{
+.home-info-block h3 {
     font-weight: 500;
 }
 
-#about-us-text p, #how-to-help-text p{
+#about-us-text p,
+#how-to-help-text p {
     padding-left: 14px;
     padding-right: 15px;
 }
 
-#why-help-text p{
+#why-help-text p {
     padding-left: 15px;
     padding-right: 14px;
 }
 
-#about-us-picture, #why-help-image, #how-to-help-image{
-
+#about-us-picture,
+#why-help-image,
+#how-to-help-image {
     background-position: center;
     background-size: cover;
     height: 100%;
-
 
     position: relative;
     margin: 0;
 
     overflow: hidden;
-
 }
 
-#about-us-picture{
+#about-us-picture {
     background: url(../images/about-us.jpg);
     background-position-y: -140px;
     background-size: cover;
-    background-position: center;    
-
+    background-position: center;
 }
 
-#why-help-image{
+#why-help-image {
     background: url(../images/why-help.jpg);
-    background-position-y: -100px;   
+    background-position-y: -100px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
 }
 
-#how-to-help-image{
-
+#how-to-help-image {
     background: url(../images/how-to-help.jpg);
     background-size: cover;
     background-position: center;
-
 }
 
-#about-us-text, #why-help-text, #how-to-help-text{
+#about-us-text,
+#why-help-text,
+#how-to-help-text {
     background-color: #01579b;
     color: #fff;
     font-size: 70%;
     padding: 10px 0 0 0;
 
-
     width: 60vw;
-
 }
 
-#about-us p, h3{
+#about-us p,
+h3 {
     padding-left: 15px;
 }
 
-#how-to-help{
-    margin-bottom:4%;
+#how-to-help {
+    margin-bottom: 4%;
 }
 
- @media (max-width: 868px) {
+@media (max-width: 868px) {
+    .home-info-block p {
+        font-size: 13.5px;
+    }
 
+    .home-info-block {
+        width: 95vw;
+    }
+}
 
-     .home-info-block p{
-         font-size: 13.5px;
-         
-     }
+/*------------------------------------------------------------------------contact form-----------------------------------------------*/
 
-     .home-info-block{
-         width:95vw;
-     }
-  }
+#contact-form input {
+    margin-bottom: 20px;
+}
 
-
-
-
- /*------------------------------------------------------------------------contact form-----------------------------------------------*/
-
- #contact-form input{
-     margin-bottom: 20px;
- }
-
-.contact-padding{
+.contact-padding {
     margin: 20px 20vw;
 }
 
-.contact-submit{
-    margin-top: 20px
+.contact-submit {
+    margin-top: 20px;
 }
 
-.contact-us-banner{
-    height:auto;
+.contact-us-banner {
+    height: auto;
     background-color: #01579b;
     color: white;
     margin-bottom: 10px;
 }
 
 @media (max-width: 992px) {
-    .contact-padding{
-    margin: 20px 10vw;
+    .contact-padding {
+        margin: 20px 10vw;
+    }
 }
- }
 
- /*----------------------------------------------------------------------------events-------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------events-------------------------------------------------------------------*/
 
- /*----taken from love running project and edited----*/
- .event-picture {
+/*----taken from love running project and edited----*/
+.event-picture {
     width: 224px;
     height: 224px;
     padding: 0;
@@ -480,12 +444,9 @@ footer h4{
     margin-right: 20px;
     margin-right: 10px;
     margin-left: 10px;
-
- 
-
 }
 
-.event-block{
+.event-block {
     background-color: #01579b;
     color: #fff;
     margin: 30px auto;
@@ -497,116 +458,102 @@ footer h4{
     border-width: 1px;
     padding: 15px 0;
 
-       flex-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 
-.event-inner{
+.event-inner {
     height: auto;
     width: 75vw;
-    margin:0;
-
+    margin: 0;
 }
 
-#bournemouth-beach-run-photo{
+#bournemouth-beach-run-photo {
     background-image: url(../images/beach-run-bournemouth.jpg);
     background-size: 160%;
     background-repeat: no-repeat;
 }
 
-#dolphin-raffle-photo{
+#dolphin-raffle-photo {
     background: url(../images/dolphin-raffel.jpg);
     background-size: 160%;
     background-repeat: no-repeat;
     background-position-x: -30px;
 }
 
-#sponsored-swim-photo{
-    background:url(../images/sponsored-swim.jpg);
+#sponsored-swim-photo {
+    background: url(../images/sponsored-swim.jpg);
     background-size: 170%;
     background-repeat: no-repeat;
 }
 
-.event-text p{
+.event-text p {
     width: 65vw;
     padding-left: 20px;
 }
 
-.event-text h3{
+.event-text h3 {
     padding-left: 20px;
     padding-top: 20px;
-    font-weight:500;
+    font-weight: 500;
 }
 
 @media (max-width: 992px) {
-    .event-picture{
-    width: 150px;
-    height: 150px;
-    margin-right: 10px;
+    .event-picture {
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
     }
 
-    .event-block h3{
-        padding-top:5px;
+    .event-block h3 {
+        padding-top: 5px;
         font-size: 15px;
         padding-left: 10px;
-        
-
     }
-    .event-text p{
+    .event-text p {
         width: 60vw;
-        padding-left:10px;
+        padding-left: 10px;
         padding-top: 0;
         font-size: 11px;
-
     }
 }
 
-@media(max-width: 450px){
-    .event-picture{
-    width: 90px;
-    height: 90px;
+@media (max-width: 450px) {
+    .event-picture {
+        width: 90px;
+        height: 90px;
         align-self: center;
     }
 
-    .event-block{
-        width:fit-content;
+    .event-block {
+        width: fit-content;
         height: auto;
     }
 
-        .event-text{
-            height:auto;
-        }
-
-    
+    .event-text {
+        height: auto;
+    }
 }
 
 /*----------------------------------------------------------------------------------------Donation Page-------------------------*/
 
-.donation-banner{
-    height:auto;
+.donation-banner {
+    height: auto;
     background-color: #01579b;
     color: white;
     margin-bottom: 10px;
     padding-top: 5px;
 }
 
-#donation-form input{
-     margin-bottom: 20px;
- }
+#donation-form input {
+    margin-bottom: 20px;
+}
 
-.donation-padding{
+.donation-padding {
     margin: 20px 20vw;
 }
 
-
-
-
-@media(max-width:992px){
-
-    .donation-padding{
-    margin: 20px 10vw;
+@media (max-width: 992px) {
+    .donation-padding {
+        margin: 20px 10vw;
     }
-
-
-
-
 }
