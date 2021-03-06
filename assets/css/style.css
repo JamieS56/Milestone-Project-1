@@ -42,7 +42,8 @@ body{
 
 header .banner h1{
     height: auto;
-    padding-top: 25px;
+    text-transform: uppercase;
+
 }
 
 nav ul li{
@@ -71,6 +72,10 @@ nav{
 .menu-list{
     justify-content: center;
 }
+
+.banner{
+    padding:20px 0;
+}
  @media (max-width: 992px) { 
 
 
@@ -86,7 +91,7 @@ nav{
  }
 
      .banner{
-         height: 100px;
+         height: auto;
          font-size: 30px;
         background-color: #002f6c;
         color:#fff;
@@ -205,8 +210,9 @@ footer h4{
      }
 
      .contact-heading{
-         padding: 0;
+         padding: 10px 0 0 0;
          margin: 0;
+
      }
 
      .contact-info ul{
@@ -298,6 +304,8 @@ footer h4{
 #welcome-text h2{
     font-size: 140%;
 }
+
+
 
  @media (max-width: 768px) { 
 
@@ -411,7 +419,9 @@ footer h4{
     padding-left: 15px;
 }
 
-
+#how-to-help{
+    margin-bottom:4%;
+}
 
  @media (max-width: 868px) {
 
@@ -429,7 +439,7 @@ footer h4{
 
 
 
- /*------------------contact form----------*/
+ /*------------------------------------------------------------------------contact form-----------------------------------------------*/
 
  #contact-form input{
      margin-bottom: 20px;
@@ -478,7 +488,7 @@ footer h4{
 .event-block{
     background-color: #01579b;
     color: #fff;
-    margin: 10px auto;
+    margin: 30px auto;
     position: relative;
     height: auto;
     width: max-content;
@@ -486,7 +496,7 @@ footer h4{
     border-color: #1b1b1b;
     border-width: 1px;
     padding: 15px 0;
-    margin-top: 30px;
+
        flex-wrap: nowrap;
 }
 
@@ -569,7 +579,7 @@ footer h4{
     
 }
 
-/*--------------------------Donation Page-------------------------*/
+/*----------------------------------------------------------------------------------------Donation Page-------------------------*/
 
 .donation-banner{
     height:auto;
@@ -587,9 +597,7 @@ footer h4{
     margin: 20px 20vw;
 }
 
-    .donation-submit{
-    margin-top: 20px;
-}
+
 
 
 @media(max-width:992px){
