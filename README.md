@@ -116,10 +116,14 @@ Save The Seas is for people who are are intrested in learning more about sea lif
     * Google fonts was used to bring specific fonts to the website making it look better.
 
 4. [tinypng.com](https://tinypng.com/)
-    * I used tinypng.com to reduce the size of all my images so the page can load faster making a better user experience.
+    * I used tiny-png to reduce the size of all my images so the page can load faster making a better user experience.
 
 5. [Color Tool](https://material.io/resources/color)
     * I used color tool to help get a complimentry color scheme across the websiteto make a good user experience.
+
+6. [Web Formatter](https://webformatter.com/html)
+    * I used web formatter to make my code look clean.
+
 ---
 ## Testing:
 
@@ -149,7 +153,7 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 
 7. HTML Validation:
 
-    i. I used the W3 validatur to validate all my pages.
+    i. I used the W3 validator to validate all my pages.
 
     * Home Page [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamies56.github.io%2FMilestone-Project-1%2Findex.html)
     * Donation Page [donate.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamies56.github.io%2FMilestone-Project-1%2Fdonate.html)
@@ -157,6 +161,14 @@ Save The Seas is for people who are are intrested in learning more about sea lif
     * Contact Page [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamies56.github.io%2FMilestone-Project-1%2Fcontact.html)
 
     ii. There are no errors across any of the pages, only a warning about the document not being mapable to XML 1.0 due to having two consecutive hyphens. however it is required to have to consecutive hyphens to heve comments in the code.
+
+8. CSS Validation:
+
+    i. I used W3C CSS validator to validate my CSS.
+
+    * [style.css](https://jigsaw.w3.org/css-validator/validator)
+
+    ii. No errors were found in my css code.
 ---
 ## Deployment:
 
@@ -172,6 +184,9 @@ To deploy the website i went onto github and clicked on my project, scrolled dow
 * beach-run-bournemouth.jpg was taken from [visitilfracombe.co.uk](https://www.visitilfracombe.co.uk/item/beat-the-bach-woolacombe-10k-beach-run/)
 * dolphin-raffle.jpg was taken from [thecarousel.com](https://thecarousel.com/wp-content/uploads/2016/03/the-carousel-dolphin.jpg)
 * sponsored-swim.jpg was taken from [southwarknews.co.uk](https://www.southwarknews.co.uk/wp-content/uploads/2019/11/crisis_45857571438-e1572881003253.jpg)
+
+* The forms used in this project were taken from [Bootstrap](https://getbootstrap.com/docs/5.0/forms/overview/).
+* Icons in this website were taken from [Font Awesome](https://fontawesome.com/v4.7.0/).
 ---
 
 ## Acknowledgements 

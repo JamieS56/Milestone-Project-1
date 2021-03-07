@@ -253,12 +253,12 @@ footer h4 {
 }
 
 #welcome-text {
-    font-size: 70%;
+    font-size: 22px;
 
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 50vw;
+    width: 65vw;
     height: auto;
 
     padding: 20px 10px 20px 40px;
@@ -270,18 +270,18 @@ footer h4 {
     position: absolute;
     color: white;
 
-    overflow: none;
-
     left: 10vw;
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    text-align: center;
 }
 
 #welcome-text h2 {
-    font-size: 140%;
+    font-size: 28px;
 }
 
 @media (max-width: 768px) {
@@ -318,7 +318,7 @@ footer h4 {
 }
 
 .home-info-block {
-    width: 70vw;
+    width: 65vw;
     margin: 2% 0;
     padding: 0 5px;
     height: auto;
@@ -350,6 +350,8 @@ footer h4 {
     margin: 0;
 
     overflow: hidden;
+
+    min-height: 250px;
 }
 
 #about-us-picture {
