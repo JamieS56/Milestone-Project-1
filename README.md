@@ -128,27 +128,45 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 ## Testing:
 
 1. Nav bar:
+
     i. Clicking the button on the dropdown menu doesn't open the dropdown. As this is only a feature on destop size and is a non-crucial element of the page i am going to change it to the same menu as the mobile and tablet.
+    
     ii. Nav bar is now just a clickable link menu. you can go to each page via any of the pages by using the nav bar.
 
 2. Donation Page:
+
     i. One user wanted to be able to donate simply and easily.
+   
     ii.  On the page it is very simple with everything on one page and only one button to submit once card details and name is inputted.
+    
     iii. Although the form is very easy to fill out and understand, the data does not go anywhere or get processed once submit is pressed.
 
+    ![Donate Page](./assets/screenshots/donate-html.png)
+
 3. Events page
+
     i. One user wanted to learn about charity events and best ways to raise money.
+    
     ii. the event age is clearly visible when you first load up the website. and if you click on that it will give you information about our previose charity events.
 
+    ![Events Page](./assets/screenshots/events-html.png)
+
 4. Contact Page:
+
     i.  Although the form is very easy to fill out and understand, the data does not go anywhere or get processed once submit is pressed.
 
 5. Non internet Contact:
+
     i. One user wants to be able to contact us but not via our contact page.
+
     ii. in the footer of every page is our phone number and email but our contact form is also very intuitive and easy to use with just one button and a text box to put in there question.
 
+    ![footer](./assets/screenshots/footer.png)
+
 6. Websites design on different sized devices:
+
     i. The website haas been designed with a mobile first view but has been tested on all screen sizes with the exact same funtionality and accesibility to all features of the website as you would get on both desktop and tablet.
+    
     ii. The design of the website still looks good across all screen sizes aswell.
 
 7. HTML Validation:
@@ -166,9 +184,9 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 
     i. I used W3C CSS validator to validate my CSS.
 
-    * [style.css](https://jigsaw.w3.org/css-validator/validator)
+    * [style.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjamies56.github.io%2FMilestone-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-    ii. No errors were found in my css code.
+    ii. When put through the jigsaw css validator 17 errors came up, but they were all from bootstrap and warnings from bootstrap and font awwesome.
 ---
 ## Deployment:
 
