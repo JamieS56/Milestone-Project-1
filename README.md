@@ -137,7 +137,7 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 
 1. Nav bar:
 
-    i. Clicking the button on the dropdown menu doesn't open the dropdown. As this is only a feature on destop size and is a non-crucial element of the page i am going to change it to the same menu as the mobile and tablet.
+    i. Clicking the button on the dropdown menu doesn't open the dropdown. As this is only a feature on destop size and is a non-crucial element of the page I am going to change it to the same menu as the mobile and tablet.
     
     ii. Nav bar is now just a clickable link menu. you can go to each page via any of the pages by using the nav bar.
 
@@ -205,6 +205,7 @@ Save The Seas is for people who are are intrested in learning more about sea lif
     i. Here is my results from running a Loghthouse test in the browser.
 
     ![Light House Test](./assets/screenshots/lighthouse-test.png)
+
 ---
 ## Deployment:
 
