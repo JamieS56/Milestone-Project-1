@@ -95,11 +95,19 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 ---
 ## Features:
 
+### Existing Features
+
 1. Home page that consits of info about the charity.
 2. Events page with the history of fundraisers held by the charity.
 3. Donation page for users to donate money.
 4. Contact page for users to send in questions.
 5. Social links that direct to our socials.
+
+###Future Features
+
+1. A sign up form to a news letter would be good to include and help the user out that wanted easier ways of contact.
+2. An image carousel on the front page would make the page look better.
+3. Another future idea is to add relevant images to each page.
 
 ---
 ## Technologies Used:
@@ -187,6 +195,11 @@ Save The Seas is for people who are are intrested in learning more about sea lif
     * [style.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjamies56.github.io%2FMilestone-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
     ii. When put through the jigsaw css validator 17 errors came up, but they were all from bootstrap and warnings from bootstrap and font awwesome.
+
+9. Websites on different browsers:
+
+    i. throughout the website creation i have viewed the website on google chrome, microsoft edge, samsung mobile browser, apple safari. and they all run well and look good.
+
 ---
 ## Deployment:
 
