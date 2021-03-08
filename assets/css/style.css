@@ -390,6 +390,10 @@ footer h4 {
     padding-left: 15px;
 }
 
+#why-help h3, #how-to-help h3{
+    padding-left: 15px;
+}
+
 #how-to-help {
     margin-bottom: 4%;
 }
