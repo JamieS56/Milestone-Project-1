@@ -200,10 +200,17 @@ Save The Seas is for people who are are intrested in learning more about sea lif
 
     i. throughout the website creation i have viewed the website on google chrome, microsoft edge, samsung mobile browser, apple safari. and they all run well and look good.
 
+10. Lighthouse Test:
+
+    i. Here is my results from running a Loghthouse test in the browser.
+
+    ![Light House Test](./assets/screenshots/lighthouse-test.png)
 ---
 ## Deployment:
 
-To deploy the website i went onto github and clicked on my project, scrolled down to the bottom and switched the sauce from none to main. then refreshed the page scroll back down and my link was there.
+To deploy the website I went onto github and clicked on my project, scrolled down to the bottom and switched the sauce from none to main. Then refreshed the page scroll back down and my link was there.
+
+To run the code locally you will need to create a git hub acount, then go to my page [jamies56](https://github.com/JamieS56) and click on Milestone Project 1. there will be all the files and you can click on each one to view the code. you can then copy and paste the code into an editor for example git pod and run it yourself.
 
 ---
 ## Credits
